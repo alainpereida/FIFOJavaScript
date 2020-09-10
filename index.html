@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Colas JavaScript</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
+
+</head>
+
+<body>
+    <header>
+        <h3>Simulador de las estructuras de datos FIFO </h3>
+    </header>
+    <main>
+        <div id="list" class="list"></div>
+
+        <div class="accions">
+            <div class="insert__form">
+                <label for="newElement">Nuevo Nodo</label>
+                <input type="text" id="newElement">
+                <button class="buttom" onclick="addElement()">Insertar Elemento</button>
+            </div>
+
+            <div class="insert__form">
+                <label for="deleteElement">Posicion De Elemento</label>
+                <input type="number" id="deleteElement">
+                <button class="buttom" onclick="deleteElement()">Eliminar Elemento</button>
+            </div>
+        </div>
+    </main>
+    <script src='./js/Colas.js'></script>
+    <script src="./js/custom.js"></script>
+    <script src='./js/main.js'></script>
+</body>
+
+</html>

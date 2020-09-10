@@ -1,0 +1,139 @@
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 2em;
+}
+
+p {
+    margin: 3px;
+    padding: 0px 10px 3px 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    padding: 1em;
+    height: auto;
+    color: mintcream;
+    background-color: indigo;
+}
+
+main {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+label {
+    font-size: 14px;
+}
+
+/**
+ *  List
+ **/
+.list {
+    width: 95%;
+    height: 60%;
+    padding-left: 5%;
+    padding-top: 40px;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+/**
+ * Node
+ **/
+
+.node {
+    height: 50px;
+    width: auto;
+    display: flex;
+    
+}
+
+.element {
+    color: white;
+    height: auto;
+    width: 50px;
+    background-color: royalblue;
+    border-radius: 50%;
+    font-size: xx-large;
+    text-align: center;
+    display: inline-block;
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes highlightNode {
+    0%{
+        transform: translateX(-50%);
+    }
+    50% {
+        transform: translateX(50%);
+    }
+    100%{
+        transform: translateX(00px);
+    }
+}
+
+.pointer {
+    height: auto;
+    width: auto;
+}
+
+.pointer img {
+    height: 100%;
+    width: 100px;;
+    top: 50%;
+}
+
+/**
+ *  Acciones CSS
+ **/
+
+.accions {
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    background-color: indigo;
+}
+
+.buttom {
+    background-color: mediumturquoise;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.insert__form {
+    width: 10em;
+    height: 100%;
+    text-align: center;
+    font-size: 1em;
+    background-color: indigo;
+    border-radius: 20px;
+}
